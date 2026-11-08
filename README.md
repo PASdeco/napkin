@@ -21,6 +21,7 @@ Napkin is a GenLayer dApp: an AI judging panel runs inside a Python Intelligent 
 - [Deployment](#deployment)
 - [Design decisions](#design-decisions)
 - [Known limitations](#known-limitations)
+- [License](#license)
 
 ---
 
@@ -213,6 +214,10 @@ The full rationale lives in [**DECISIONS.md**](./DECISIONS.md). Headlines:
 - **Credits, not escrow.** See above.
 - **Scores are opinions.** AI output, gated by consensus tolerance — useful feedback, not investment or legal advice.
 - **No event indexer.** v1 is view-driven; the board is fetched directly from the contract.
+
+## License
+
+[MIT](./LICENSE) © 2026 PASdeco
 
 ---
 
