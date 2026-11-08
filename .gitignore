@@ -1,0 +1,48 @@
+# ─── Secrets ────────────────────────────────────────────────────────────────
+# Never commit keys or deployed-contract state. Copy .env.example instead.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ─── JavaScript / Next.js ───────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── Python / GenLayer ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+artifacts/
+
+# ─── Tests & generated reports ──────────────────────────────────────────────
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+coverage/
+*.lcov
+
+# ─── Local-only material (not part of the product) ──────────────────────────
+# design/ holds the visual reference and QA screenshots used while building.
+design/
+.cache/
+*.log
+
+# ─── OS / editors ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
